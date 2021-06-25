@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mycontainer-fluid{
+    padding: 10px 100px  !important;
+    background-color: #f7f8f8;
+    border-bottom:2px solid #e2e5e5;
+
+}
+.mycontainer-fluid img{
+    width: 50px;
+    height:50px;
+}
+.mycontainer-fluid select{
+    border:2px solid black;
+    width: 230px;  
+    text-align: center;
+    font-weight: 400 ;
+    font-size: 20px;
+    padding: 10px;
+    
+
+}
+.mycontainer-fluid input{
+    padding: 10px;
+    border:2px solid black;
+    width: 700px !important;  
+    font-weight: 400 ;
+    font-size: 20px;
+}
+.mycontainer-fluid .black-box{
+    background-color: black;
+    width: 50px;
+    height: 53px;
+    color:#fff;
+    text-align: center;
+    margin-left: 0px;
+} 
+.mybtn{
+border-radius: 45%;
+border-left: 6px solid #ffce32;
+border-top: 6px solid #23e5db;
+border-right: 6px solid #3a77ff;
+border-bottom: 6px solid #3a77ff;
+background-color: #fff;
+width:15%;
+font-size:15px;
+padding: 5px 20px;
+text-align: center;
+font-weight: bold;
+}
+.container-fluid p{
+
+font-size: 17px;
+font-weight: bold;
+text-align: center;
+padding-top: 15px;
+border-bottom:2px solid black;
+}
+.myinput{
+border:2px solid black;
+width:300px;
+margin-left: 20px;
+background-color: white;
+font-size: 17px;
+padding: 8px;
+}
+/* .icon{
+    padding: 4px 20px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 220px;
+} 
+.Card1{
+    border: 1px solid black ;
+    margin: 20px;
+    position: relative;
+}
+.img2{
+     position: relative !important; 
+    width: 100%;
+}
+.top{
+    position: absolute;
+    top:0;
+     background-color: blue; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.featured{
+    background-color: yellow;
+} */
+.card-content{
+    border-left: 4px solid yellow;
+    padding: 10px;
+}
+.card-container{
+    background-color: #f7f8f8;
+    padding: 20px;
+}
+.card-container img{
+    height: 200px;
+}
+.card-container .card{
+    margin-top:20px;
+    margin-left: 40px;
+}
+.card-container .card-body{
+    border-left: 5px solid rgba(255, 255, 8, 0.829);
+
+}
+.footer{
+    background-color: #e2e5e5;
+    border-bottom:2px solid #e2e5e5;
+    border-top:2px solid #e2e5e5;
+
+}
+.myfooter{
+    background-color: #002f34;
+}
+
+
+    
+ @media screen and (min-width: 768px) {
+    .mycontainer-fluid{
+        padding: 5px 50px;
+    }
+    .mycontainer-fluid input{
+        width: 60%;  
+    }
+    .mycontainer-fluid select{
+        width: 60% ;
+    }
+    .mycontainer-fluid .btn{
+        width:10%;
+        font-size:15px;
+        padding: 10px 10px;
+
+    }
+    .mycontainer-fluid p{
+        font-size: 15px;
+    }
+    .mycontainer-fluid .black-box{
+        width: 40px;
+
+    }
+    .banner{
+        width: 500px;
+        margin:0px;
+    }
+    
+}
+/* media query for tablet */
+@media only screen and (min-width: 480px) {
+    .mycontainer-fluid{
+        padding: 5px 50px;
+    }
+    .mycontainer-fluid input{
+        width: 60%;  
+    }
+    .mycontainer-fluid select{
+        width: 60% ;
+    }
+    .mycontainer-fluid .btn{
+        width:10%;
+        font-size:15px;
+        padding: 10px 10px;
+
+    }
+    .mycontainer-fluid p{
+        font-size: 15px;
+    }
+    .mycontainer-fluid .black-box{
+        width: 40px;
+
+    }
+    .banner{
+        width: 500px;
+        margin:0px;
+    }
+
+}
+/* end media query for tablet */
+@media only screen and (min-width: 480px) {
+
+    .mycontainer-fluid{
+        padding: 5px 50px;
+    }
+    .mycontainer-fluid input{
+        width: 90%;  
+    }
+    .mycontainer-fluid select{
+        width: 90% ;
+    }
+    .mycontainer-fluid .btn{
+        width:15%;
+        font-size:15px;
+        padding: 10px 10px;
+
+    }
+    .mycontainer-fluid p{
+        font-size: 15px;
+    }
+    .mycontainer-fluid .black-box{
+        width: 40px;
+
+    }
+    .banner{
+        width: 500px;
+        margin:0px;
+    }
+} 

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>olx</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <img src="images/olx-logo.png" alt="logo">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
+            <form action="#">
+                <select name="dropdown" id="">
+                    <option value="pakistan">Pakistan</option>
+                    <option value="pakistan">Punjab</option>
+                    <option value="pakistan">Sindh</option>
+                    <option value="pakistan">K.P.K</option>
+                    <option value="pakistan">Balochistan</option>
+                </select>
+             </form>
+        </div>
+        <div class="col-lg-5 col-md-4 col-sm-3 col-xs-3">
+            <form action="#">
+                <input type="text" placeholder="Find Cars, Mobile Phones and more...">
+            </form>
+        </div>
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-1 black-box">
+            <i class="fa fa-search icon"></i>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <p class="text">Login</p>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 mybtn">
+            +Sell
+        </div>
+    </div> -->
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid mycontainer-fluid">
+      <a class="navbar-brand mynav" href="#"><img src="images/olx-logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+          <li class="nav-item dropdown myinput">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pakistan
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Punjab</a></li>
+              <li><a class="dropdown-item" href="#">Sindh</a></li>
+              <li>
+                <hr class="dropdown-divider">k.p.k
+              </li>
+              <li><a class="dropdown-item" href="#">Balochistan</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      
+
+      <form class="d-flex">
+
+        <input class="form-control" type="search" placeholder="Find Mobile Phones,Cars and more..."
+          aria-label="Search">
+        <div class="col-lg-1 col-md-2 col-sm-2 col-xs-1 black-box">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 me-2">
+          <p class="text">Login</p>
+        </div>
+        <button class="btn btn-outline-success me-2 mybtn" type="submit">Search</button>
+      </form>
+    </div>
+    </div>
+    </nav>
+  </nav>
+<!-- subnav -->
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">
+        <div class="btn-group">
+          <button class="btn btn-light btn-sm dropdown-toggle dropbg" type="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            All categories
+          </button>
+          <div class="dropdown-menu">
+            ...
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item mt-1 ">
+      <a class="nav-link dropbg" href="#">Mobiles</a>
+    </li>
+    <li class="nav-item mt-1">
+      <a class="nav-link dropbg" href="#">Cars</a>
+    </li>
+    <li class="nav-item mt-1">
+      <a class="nav-link dropbg" href="#">Motorcycle</a>
+    </li>
+    <li class="nav-item mt-1">
+      <a class="nav-link dropbg" href="#">Houses</a>
+    </li>
+    <li class="nav-item mt-1">
+      <a class="nav-link dropbg" href="#">TV-Tablets</a>
+    </li>
+
+  </ul>
+
+  <!-- sub navbar -->
+
+  <div class="container-fluid banner">
+    <img src="images/banner.PNG" alt="banner">
+  </div>
+  <!-- cards -->
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gas generator.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/huwawei.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/jewwellery.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/staff.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- one row complete -->
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gas generator.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/huwawei.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/jewwellery.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/staff.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- second row complete -->
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gas generator.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/huwawei.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/jewwellery.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/staff.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3rd row complete -->
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gas generator.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/huwawei.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/jewwellery.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/staff.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 4th row complete -->
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gas generator.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+              the
+              card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 5th row complete -->
+  <div class="container">
+    <center><button type="button" class="btn btn-outline-dark  m-5">LOAD MORE</button></center>
+  </div>
+  <!-- footer  -->
+  <div class="container-fluid footer  p-5">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h4>NEED HELP?</h4>
+        <p class="mt-3">
+          +92 21 111 112 111 (9am - 10pm , Mon - Sat, Sunday 11am - 08pm)
+        </p>
+        <p class="mt-3">eshop@junaidjamshed.com</p>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h4>CUSTOMER SERVICE</h4>
+        <p class="mt-3">
+        <ul>
+          <li>Contact Us</li>
+          <li>Delivery & Orders</li>
+          <li>Returns & Exchanges</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+        </p>
+
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h4>COMPANY</h4>
+        <p class="mt-3">
+        <ul>
+          <li>Contact Us</li>
+          <li>Delivery & Orders</li>
+          <li>Returns & Exchanges</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+        </p>
+
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h4>FOLLOW US</h4>
+        <p class="mt-3">
+        <ul>
+          <li>Contact Us</li>
+          <li>Delivery & Orders</li>
+          <li>Returns & Exchanges</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid myfooter text-light  p-3">
+    <div class="row">
+      <div class="col-lg-6 col-md-3 col-sm-3 col-xs-12">
+        Other Countries India - South Africa - Indonesia
+      </div>
+      <div class="col-lg-6 col-md-3 col-sm-3 col-xs-12">
+        Free Classifieds in Pakistan. © 2006-2021 OLX
+
+      </div>
+
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+  integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+  integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</html>
